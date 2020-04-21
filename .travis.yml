@@ -1,5 +1,9 @@
 language: node_js
 node_js:
-  - "7"
+  - "8"
+brancher:
+  only:
+    - "dev"
+    - "branch"
 script: 
   - "npm run cover"
